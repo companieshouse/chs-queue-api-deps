@@ -1,1 +1,19 @@
-# dummy
+requires 'Mojolicious', '==7.57';
+requires 'Mango', '>=1.29, <2.00';
+requires 'Authen::SCRAM', '<1.0';
+requires 'MangoX::Queue', '==0.17';
+requires 'Log::Log4perl', '==1.47';
+requires 'CH::Perl', '==0.31';
+requires 'Net::Statsd', '==0.09';
+requires 'MangoX::EventWrapper', '==0.31';
+requires 'CH::MojoX::Plugin::Config', '==0.31';
+requires 'Mojolicious::Plugin::MangoWrapper', '==0.30';
+requires 'MojoX::Plugin::Hook::BeforeRendered', '==0.30';
+requires 'MojoX::Moose::Controller', '==0.30';
+requires 'MojoX::Plugin::Statsd', '==0.02';
+requires 'CH::MangoX::Queue::Plugin::Statsd', '==0.01';
+requires 'DateTime', '==1.26';
+requires 'DateTime::Format::Strptime', '==1.56';
+requires 'Log::Log4perl::Appender::Fluent', '==0.04';
+requires 'JSON::XS', '==3.01';
+test_requires 'CH::Test', '==0.31';

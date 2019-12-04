@@ -1,4 +1,4 @@
-artifact_name   := <service>
+artifact_name   := chs-queue-api-deps
 
 local           := ./local
 
