@@ -1,4 +1,5 @@
 requires 'Mojolicious', '==7.57';
+requires 'IO::Socket::SSL', '>=1.981';
 requires 'Mango', '>=1.29, <2.00';
 requires 'Authen::SCRAM', '<1.0';
 requires 'MangoX::Queue', '==0.17';
@@ -14,6 +15,8 @@ requires 'MojoX::Plugin::Statsd', '==0.02';
 requires 'CH::MangoX::Queue::Plugin::Statsd', '==0.01';
 requires 'DateTime', '==1.26';
 requires 'DateTime::Format::Strptime', '==1.56';
+requires 'Data::MessagePack::Stream', '==1.04';
+requires 'Fluent::Logger', '==0.28';
 requires 'Log::Log4perl::Appender::Fluent', '==0.04';
 requires 'JSON::XS', '==3.01';
 test_requires 'CH::Test', '==0.31';
