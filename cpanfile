@@ -4,6 +4,7 @@ requires 'Mango', '>=1.29, <2.00';
 requires 'Authen::SCRAM', '<1.0';
 requires 'MangoX::Queue', '==0.17';
 requires 'Log::Log4perl', '==1.47';
+requires 'Devel::Declare', '==0.006019';
 requires 'CH::Perl', '==0.31';
 requires 'Net::Statsd', '==0.09';
 requires 'MangoX::EventWrapper', '==0.31';
